@@ -1,0 +1,301 @@
+.hero {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.D-Image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 80%;
+    width: max-content;
+}
+
+.D-Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.media img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stack-list img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.left-side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.right-side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: end;
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+}
+
+.title span {
+    color: #B68250;
+}
+
+.description {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.description p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 85%;
+}
+
+.stack-list {
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.scroll-down {
+    margin-bottom: 50px;
+    width: max-content;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    background-color: #45846d;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: inset;
+    width: max-content;
+}
+
+.media img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text-conatct {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-text {
+    background-color: #B68250;
+    font-size: 12px;
+    rotate: 90deg;
+    width: max-content;
+    height: 100%;
+    transform-origin: left top;
+    transform: translateY(-30px);
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.chat {
+    width: 50%;
+    display: flex;
+    gap: 3px;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: #555;
+    padding: 25px;
+    font-size: 8px;
+    border-radius: 20px 20px 0 20px;
+}
+
+.chat img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    background-color: #B68250;
+}
+
+.contact-me {
+    margin-bottom: 25px;
+}
+
+.contact-btn {
+    position: relative;
+}
+
+.circleText {
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.download-cv-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #B68250; /* Change to your preferred color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.download-cv-btn:hover {
+    background-color: #fff;
+    color: #B68250; /* Change to your preferred hover color */
+}
+
+@media (max-width: 1536px) {
+    .title {
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .background-image {
+        height: 60%;
+        top: auto;
+        bottom: 0;
+    }
+
+    .hImg {
+        height: 100%;
+    }
+
+    .title {
+        font-size: 88px;
+    }
+
+    .description {
+        width: 60%;
+    }
+
+    .bubbleContainer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .bg {
+        height: 50%;
+    }
+
+    .title {
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .background-image {
+        height: 60%;
+    }
+
+    .left-side {
+        width: 100%;
+    }
+
+    .left-side {
+        align-items: center;
+        text-align: center;
+        gap: 36px;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .description p {
+        width: 100%;
+    }
+
+    .stack-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        
+        
+    }
+
+    .right-side {
+        justify-content: end;
+    }
+
+    .follow,
+    .bubbleContainer,
+    .certificate {
+        display: none;
+    }
+}
