@@ -44,7 +44,7 @@ const Hero = () => {
                         <img src="/whatsapp-color-svgrepo-com.png" alt="WhatsApp" />
                     </a>
                     <a href="https://www.linkedin.com/in/mohammed-arafa-6628211b8/" target="_blank" rel="noopener noreferrer">
-                        <img src="public\linkedin-svgrepo-com (1).png" alt="LinkedIn" />
+                        <img src="/linkedin-svgrepo-com (1).png" alt="LinkedIn" />
                     </a>
                     <a href="https://github.com/mo74x" target="_blank" rel="noopener noreferrer">
                         <img src="/github-svgrepo-com.png" alt="GitHub" />
