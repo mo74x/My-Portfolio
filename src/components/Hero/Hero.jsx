@@ -36,6 +36,20 @@ const Hero = () => {
         <div className="hero">
             <div className="left-side">
                 <motion.h1 className="title" initial={{ y: -100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1.5 }}>Hello There,<br /><span>I'M Mohamed.</span></motion.h1>
+                <div className="icon-clickers">
+                    <a href="mailto:mohamed3rafa01@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/gmail-svgrepo-com.png" alt="Gmail" />
+                    </a>
+                    <a href="https://wa.link/ir1l96" target="_blank" rel="noopener noreferrer">
+                        <img src="/whatsapp-color-svgrepo-com.png" alt="WhatsApp" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/mohammed-arafa-6628211b8/" target="_blank" rel="noopener noreferrer">
+                        <img src="public\linkedin-svgrepo-com (1).png" alt="LinkedIn" />
+                    </a>
+                    <a href="https://github.com/mo74x" target="_blank" rel="noopener noreferrer">
+                        <img src="/github-svgrepo-com.png" alt="GitHub" />
+                    </a>
+                </div>
                 <motion.div variants={stackmotion} initial="initial" animate="animate" className="description">
                     <motion.h2 variants={stackmotion}>Software Engineer || Full Stack Developer</motion.h2>
                     <motion.p variants={stackmotion}>
